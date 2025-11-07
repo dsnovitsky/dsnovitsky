@@ -16,8 +16,8 @@ I value clean architecture, readable code, and meaningful collaboration within t
 
 ## 🧩 Technical Expertise  
 
-- **Languages:** Lua • Python • JavaScript (React, Node.js)  
-- **Frameworks & Tools:** React • Express • Flask • FiveM / RedM Natives API  
+- **Languages:** Lua • Python • JavaScript  •  TypeScript 
+- **Frameworks & Tools:** React • Express • Flask • FiveM • RedM 
 - **Game Scripting:** Server-client events, optimized gameplay logic, UI integration  
 - **Web Development:** RESTful APIs • Real-time dashboards • Server analytics  
 - **Version Control:** Git • GitHub Actions • Continuous Integration  
