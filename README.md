@@ -7,7 +7,7 @@ Crafting immersive systems and innovative tools for the **FiveM** and **RedM** m
 
 ## 🧠 About Me  
 
-I’m a developer with deep experience in **Lua**, **React**, and **Python**, specializing in the intersection of **game scripting** and **web technology**.  
+I’m a developer with experience in **Lua**, **React**, and **Python**, specializing in the intersection of **game scripting** and **web technology**.  
 My focus lies in building optimized, scalable, and community-driven systems that enhance player experience and developer productivity.  
 
 I value clean architecture, readable code, and meaningful collaboration within the open-source ecosystem.
