@@ -1,16 +1,35 @@
-## Hi there 👋
+# 👋 Hey there, I’m Richter  
 
-<!--
-**dsnovitsky/dsnovitsky** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎮 **Game Developer | Full-Stack Engineer | Open-Source Contributor**  
+Crafting immersive systems and innovative tools for the **FiveM** and **RedM** modding communities.  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧠 About Me  
+
+I’m a developer with deep experience in **Lua**, **React**, and **Python**, specializing in the intersection of **game scripting** and **web technology**.  
+My focus lies in building optimized, scalable, and community-driven systems that enhance player experience and developer productivity.  
+
+I value clean architecture, readable code, and meaningful collaboration within the open-source ecosystem.
+
+---
+
+## 🧩 Technical Expertise  
+
+- **Languages:** Lua • Python • JavaScript (React, Node.js)  
+- **Frameworks & Tools:** React • Express • Flask • FiveM / RedM Natives API  
+- **Game Scripting:** Server-client events, optimized gameplay logic, UI integration  
+- **Web Development:** RESTful APIs • Real-time dashboards • Server analytics  
+- **Version Control:** Git • GitHub Actions • Continuous Integration  
+- **Database:** MySQL • SQLite • Redis  
+
+---
+
+## 📫 Contact  
+
+- ✉️ **Email:** ds.novitsky@gmail.com  
+- 💬 **Discord:** artem.richter  
+
+---
+
+⭐ _"Modding isn’t just about changing games — it’s about redefining how players experience them."_  
