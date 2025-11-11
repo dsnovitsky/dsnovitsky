@@ -1,0 +1,325 @@
+{
+  "designSystem": {
+    "meta": {
+      "name": "Richter Portfolio Design System",
+      "version": "1.0",
+      "style": "Minimalist Coding Theme",
+      "philosophy": "Чистая архитектура кода = чистый интерфейс",
+      "status": "active"
+    },
+    "colors": {
+      "backgrounds": {
+        "primary": "#0a0a0a",
+        "secondary": "#0f0f0f",
+        "card": "#0d0d0d",
+        "hover": "#1a1a1a",
+        "code": "#0d1117",
+        "codeHeader": "#161b22"
+      },
+      "text": {
+        "primary": "#ffffff",
+        "secondary": "#a3a3a3",
+        "muted": "#404040",
+        "code": "#c9d1d9",
+        "terminal": "#c9d1d9",
+        "terminalPrompt": "#10b981"
+      },
+      "borders": {
+        "primary": "#303030",
+        "secondary": "#404040",
+        "card": "#303030",
+        "hover": "#505050"
+      },
+      "accents": {
+        "primary": "#a855f7",
+        "code": "#10b981",
+        "usage": "rarely, only for important elements"
+      },
+      "grayScale": {
+        "50": "#fafafa",
+        "100": "#f5f5f5",
+        "200": "#e5e5e5",
+        "300": "#d4d4d4",
+        "400": "#a3a3a3",
+        "500": "#737373",
+        "600": "#525252",
+        "700": "#404040",
+        "800": "#303030",
+        "900": "#1a1a1a"
+      }
+    },
+    "typography": {
+      "fonts": {
+        "sans": {
+          "family": "'Inter', sans-serif",
+          "usage": "Main text, headings"
+        },
+        "mono": {
+          "family": "'JetBrains Mono', monospace",
+          "usage": "Code, commands, navigation, buttons"
+        }
+      },
+      "sizes": {
+        "h1": {
+          "size": "3rem",
+          "lineHeight": "1.2",
+          "weight": "700",
+          "font": "sans"
+        },
+        "h2": {
+          "size": "2.25rem",
+          "lineHeight": "1.2",
+          "weight": "700",
+          "font": "sans"
+        },
+        "h3": {
+          "size": "1.5rem",
+          "lineHeight": "1.3",
+          "weight": "600",
+          "font": "sans"
+        },
+        "body": {
+          "size": "1rem",
+          "lineHeight": "1.6",
+          "weight": "400",
+          "font": "sans"
+        },
+        "small": {
+          "size": "0.875rem",
+          "lineHeight": "1.5",
+          "weight": "400",
+          "font": "sans"
+        },
+        "tiny": {
+          "size": "0.75rem",
+          "lineHeight": "1.4",
+          "weight": "400",
+          "font": "mono"
+        }
+      },
+      "rules": {
+        "headings": "Inter, bold, white",
+        "body": "Inter, normal, gray-400",
+        "code": "JetBrains Mono, normal",
+        "navigation": "JetBrains Mono, small, lowercase",
+        "sectionNumbers": "JetBrains Mono, small, gray-500, format: '> 01. section'"
+      }
+    },
+    "components": {
+      "buttons": {
+        "default": {
+          "bg": "#1a1a1a",
+          "border": "#303030",
+          "text": "white",
+          "hover": {
+            "bg": "#252525",
+            "border": "#303030"
+          },
+          "font": "mono",
+          "size": "text-sm",
+          "radius": "rounded-md"
+        },
+        "outline": {
+          "bg": "transparent",
+          "border": "#303030",
+          "text": "gray-400",
+          "hover": {
+            "bg": "#1a1a1a",
+            "border": "#404040",
+            "text": "white"
+          },
+          "font": "mono",
+          "size": "text-sm",
+          "radius": "rounded-md"
+        },
+        "ghost": {
+          "bg": "transparent",
+          "border": "none",
+          "text": "gray-400",
+          "hover": {
+            "bg": "#1a1a1a",
+            "text": "white"
+          },
+          "font": "mono",
+          "size": "text-sm",
+          "radius": "rounded-md"
+        }
+      },
+      "cards": {
+        "default": {
+          "bg": "#0d0d0d",
+          "border": "#303030",
+          "borderWidth": "1px",
+          "radius": "rounded-lg",
+          "padding": "p-6",
+          "hover": {
+            "border": "#404040"
+          }
+        }
+      },
+      "badges": {
+        "default": {
+          "font": "mono",
+          "size": "text-xs",
+          "border": "#404040",
+          "text": "gray-300",
+          "bg": "transparent",
+          "hover": {
+            "border": "#505050",
+            "bg": "rgba(26, 26, 26, 0.5)"
+          }
+        }
+      },
+      "navigation": {
+        "bg": "rgba(10, 10, 10, 0.8)",
+        "backdrop": "blur-md",
+        "border": "rgba(48, 48, 48, 0.5)",
+        "font": "mono",
+        "size": "text-sm",
+        "text": "gray-400",
+        "hover": "white",
+        "case": "lowercase"
+      }
+    },
+    "sections": {
+      "structure": {
+        "padding": "py-20 px-4",
+        "bg": "#0a0a0a",
+        "maxWidth": "max-w-6xl",
+        "container": "container mx-auto"
+      },
+      "header": {
+        "numberFormat": "> 01. section-name",
+        "numberStyle": {
+          "font": "mono",
+          "size": "text-sm",
+          "color": "gray-500",
+          "case": "lowercase"
+        },
+        "titleStyle": {
+          "font": "sans",
+          "size": "text-3xl md:text-4xl",
+          "weight": "700",
+          "color": "white",
+          "margin": "mb-6"
+        }
+      },
+      "numbering": [
+        "> 01. about",
+        "> 02. stack",
+        "> 03. projects",
+        "> 04. contact"
+      ]
+    },
+    "codingElements": {
+      "terminal": {
+        "bg": "#0d1117",
+        "border": "#303030",
+        "header": {
+          "bg": "#161b22",
+          "border": "#303030",
+          "dots": {
+            "red": "#ff5f56",
+            "yellow": "#ffbd2e",
+            "green": "#27c93f"
+          }
+        },
+        "text": "#c9d1d9",
+        "prompt": "#10b981",
+        "cursor": {
+          "color": "#10b981",
+          "animation": "blink"
+        },
+        "font": "mono",
+        "radius": "rounded-lg"
+      },
+      "codeBlock": {
+        "bg": "#0d1117",
+        "border": "#303030",
+        "header": {
+          "bg": "#161b22",
+          "border": "#303030",
+          "text": "gray-400",
+          "font": "mono",
+          "size": "text-xs"
+        },
+        "text": "#c9d1d9",
+        "font": "mono",
+        "size": "text-sm",
+        "radius": "rounded-lg",
+        "padding": "p-4"
+      }
+    },
+    "rules": {
+      "colors": {
+        "noGradients": true,
+        "minimalAccents": true,
+        "grayBased": true,
+        "whiteForHeadings": true
+      },
+      "typography": {
+        "monoForCode": true,
+        "sansForText": true,
+        "lowercaseForNavigation": true,
+        "smallSizes": true
+      },
+      "components": {
+        "thinBorders": true,
+        "noShadows": true,
+        "noGlows": true,
+        "minimalRadius": true,
+        "flatDesign": true
+      },
+      "animations": {
+        "smoothTransitions": true,
+        "fadeIn": true,
+        "scaleOnHover": true,
+        "noComplexAnimations": true
+      },
+      "spacing": {
+        "largePadding": "py-20",
+        "consistentGaps": "gap-4, gap-6, gap-8",
+        "maxWidth": "max-w-6xl",
+        "mobilePadding": "px-4"
+      }
+    },
+    "forbidden": {
+      "colors": [
+        "Градиенты (linear-gradient)",
+        "Тени (box-shadow)",
+        "Свечения (glow effects)",
+        "Яркие цвета (только серые и белый)"
+      ],
+      "typography": [
+        "Sans-serif для кода/команд",
+        "Верхний регистр для навигации",
+        "Большие размеры шрифта (только для заголовков)"
+      ],
+      "components": [
+        "Большие скругления (rounded-xl, rounded-2xl)",
+        "Объемные эффекты (3D, depth)",
+        "Сложные анимации"
+      ]
+    },
+    "allowed": {
+      "colors": [
+        "Плоские цвета",
+        "Тонкие границы",
+        "Серые оттенки",
+        "Темные фоны"
+      ],
+      "typography": [
+        "Моноширинный шрифт для кода",
+        "Нижний регистр для меток",
+        "Маленькие размеры шрифта",
+        "Плавные переходы"
+      ],
+      "components": [
+        "Минимальные скругления",
+        "Простые анимации",
+        "Плоский дизайн"
+      ]
+    }
+  }
+}
+
